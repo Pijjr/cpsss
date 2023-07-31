@@ -93,6 +93,8 @@ ul li {
 h1 {
     padding-top: 8px;
     font-size: 28px;
+    font-weight: 700;
+    font-family: TT;
 }
 .container__main {
     margin: 0 16px;
