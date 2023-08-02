@@ -11,17 +11,17 @@ button {
 
 @font-face {
     font-family: TT;
-    src: url('/TTLakes/TTLakes-Regular.ttf') format('truetype');
+    src: url('./fonts/TTLakesCompressed-Regular.woff') format('woff');
     font-weight: 400;
 }
 @font-face {
     font-family: TT;
-    src: url("/TTLakes/TTLakes-Medium.ttf") format("truetype");
+    src: url('./fonts/TTLakesCondensed-Medium.woff') format('woff');
     font-weight: 500;
 }
 @font-face {
     font-family: TT;
-    src: url("/TTLakes/TTLakes-Bold.ttf") format("truetype");
+    src: url('./fonts/TTLakes-Bold.woff') format('woff');
     font-weight: 700;
 }
 
@@ -93,8 +93,6 @@ ul li {
 h1 {
     padding-top: 8px;
     font-size: 28px;
-    font-weight: 700;
-    font-family: TT;
 }
 .container__main {
     margin: 0 16px;
