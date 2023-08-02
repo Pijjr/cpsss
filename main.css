@@ -10,19 +10,35 @@ button {
 }
 
 @font-face {
-    font-family: TT;
-    src: url('./fonts/TTLakesCompressed-Regular.woff') format('woff');
-    font-weight: 400;
+    font-family: 'TT Lakes Compressed';
+    src: url('TTLakesCompressed-Regular.eot');
+    src: local('TT Lakes Compressed Regular'), local('TTLakesCompressed-Regular'),
+        url('TTLakesCompressed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTLakesCompressed-Regular.woff') format('woff'),
+        url('TTLakesCompressed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-    font-family: TT;
-    src: url('./fonts/TTLakesCondensed-Medium.woff') format('woff');
+    font-family: 'TT Lakes Condensed';
+    src: url('TTLakesCondensed-Medium.eot');
+    src: local('TT Lakes Condensed Medium'), local('TTLakesCondensed-Medium'),
+        url('TTLakesCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TTLakesCondensed-Medium.woff') format('woff'),
+        url('TTLakesCondensed-Medium.ttf') format('truetype');
     font-weight: 500;
+    font-style: normal;
 }
 @font-face {
-    font-family: TT;
-    src: url('./fonts/TTLakes-Bold.woff') format('woff');
+    font-family: 'TT Lakes Compressed';
+    src: url('TTLakesCompressed-ExtraBoldItalic.eot');
+    src: local('TT Lakes Compressed ExtraBold Italic'), local('TTLakesCompressed-ExtraBoldItalic'),
+        url('TTLakesCompressed-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTLakesCompressed-ExtraBoldItalic.woff') format('woff'),
+        url('TTLakesCompressed-ExtraBoldItalic.ttf') format('truetype');
     font-weight: 700;
+    font-style: italic;
 }
 
 body {
